@@ -93,6 +93,7 @@ class Bootstrap
         echo $exception->getTraceAsString();
         echo "</pre>";
         if ($exception = $exception->getPrevious()) {
+            echo "Previous exception:";
             $this->nativeHandleError($exception);
         };
     }

@@ -3,7 +3,7 @@
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "library",
   "authors": [
     {
@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "h2sf/boot-config": "0.1.0",
-    "h2sf/dependency-manager": "0.1.0"
+    "h2sf/boot-config": "^0.1",
+    "h2sf/dependency-manager": "^0.1"
   },
   "autoload": {
     "psr-4": {
